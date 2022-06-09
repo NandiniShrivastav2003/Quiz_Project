@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+body{
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(7, 62, 156, 1) 52%, rgba(5, 162, 183, 1) 65%, rgba(0, 212, 255, 1) 100%);
+}
+.box{
+    background-color: white;
+    height:50vh;
+    width:50vw;
+}
+.box h1{
+    background-color: purple;
+    color:white;
+    
+}
+#question{
+    margin-left:33px;
+}
+ul li{
+    list-style-type: none;
+}
+.dot{
+   /* background-color: bisque;*/
+    height:8px;
+    width:8px;
+    border-radius: 50%;
+    display:inline-block;
+    border: 1px solid black;
+}
+.form-check-label{
+    
+        margin-left: 13px;
+        margin-top: -23px;
+    
+}
+.center{
+    text-align: center;
+}
